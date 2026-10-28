@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clinique Sidi Yahia 2 | Maternité, Gynécologie, Chirurgie & Urologie à Alger</title>
+  <meta name="description"
+    content="Clinique Sidi Yahia 2 est un centre médico-chirurgical d'excellence à Alger spécialisé en Maternité haut de gamme, Gynécologie, Chirurgie mini-invasive & Urologie de pointe. Urgences 24/7.">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2300a896'><path d='M19 10.5h-5.5V5c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v5.5H5c-.83 0-1.5.67-1.5 1.5s.67 1.5 1.5 1.5h5.5V19c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5v-5.5H19c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5z'/></svg>">
+</head>
+
+<body>
+
+  <!-- TOP BAR: EMERGENCY & DIRECT ASSISTANCE -->
+  <header class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="top-bar-left">
+        <span class="top-badge-emergency">
+          <span class="pulse-dot"></span>
+          Urgences Maternité & Chirurgie 24h/24 - 7j/7
+        </span>
+        <a href="#" data-safe-phone data-phone-prefix="Ligne Directe" class="top-link safe-contact-link" aria-label="Appeler la clinique">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path
+              d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+            </path>
+          </svg>
+          <span class="safe-phone-text">Ligne Directe : +213 (0) ...</span>
+        </a>
+      </div>
+      <div class="top-bar-right">
+        <a href="https://maps.google.com/?q=P2MQ%2B2R+Bir+Mourad+Ra%C3%AFs,+Algeria" target="_blank" rel="noopener" class="top-link" title="Localisation Google Maps (Plus Code : P2MQ+2R)">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+            <circle cx="12" cy="10" r="3"></circle>
+          </svg>
+          27 chemin Ahmed KARA, Bir Mourad Rais, Alger
+        </a>
+        <div class="lang-switch">
+          <span class="active">FR</span>
+          <span>AR</span>
+          <span>EN</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN NAVIGATION -->
+  <nav class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo" aria-label="Accueil Clinique Sidi Yahia 2">
+        <div class="brand-symbol">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M12 2v20M2 12h20M7 7l10 10M17 7L7 17"></path>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">SIDI YAHIA <span>2</span></span>
+          <span class="brand-subtitle">Clinique Médico-Chirurgicale</span>
+        </div>
+      </a>
+
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="index.html" class="nav-link active">Accueil</a></li>
+        <li class="nav-item has-dropdown">
+          <a href="#specialites" class="nav-link">
+            Pôles d'Excellence
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </a>
+          <ul class="nav-dropdown">
+            <li><a href="maternite.html"><span class="dropdown-icon">👶</span> Maternité & Obstétrique</a></li>
+            <li><a href="gynecologie.html"><span class="dropdown-icon">🌸</span> Gynécologie Médicale</a></li>
+            <li><a href="chirurgie.html"><span class="dropdown-icon">🔬</span> Chirurgie Mini-Invasive</a></li>
+            <li><a href="urologie.html"><span class="dropdown-icon">💧</span> Urologie & Pelvi-Périnéologie</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a href="#equipe" class="nav-link">Médecins</a></li>
+        <li class="nav-item"><a href="contact.html" class="nav-link">Contact & Accès</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="btn-header-rdv" data-open-modal="appointment" id="btnHeaderRdv">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+            <line x1="16" y1="2" x2="16" y2="6"></line>
+            <line x1="8" y1="2" x2="8" y2="6"></line>
+            <line x1="3" y1="10" x2="21" y2="10"></line>
+          </svg>
+          Prendre Rendez-vous
+        </button>
+        <button class="mobile-nav-toggle" aria-label="Menu principal" aria-expanded="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-badge-wrap">
+          <span class="hero-pill">
+            <span class="pulse-dot"></span>
+            Centre de Référence Médico-Chirurgical & Obstétrical
+          </span>
+        </div>
+        <h1 class="hero-title">
+          La Haute Précision Médicale et la <span class="gradient-text">Douceur d'un Accueil 5 Étoiles</span>
+        </h1>
+        <p class="hero-lead">
+          Implantée au cœur de Sidi Yahia à Alger, notre clinique réunit les meilleurs chirurgiens, obstétriciens et
+          urologues autour d'un plateau technique de dernière génération, pour une prise en charge sur-mesure et
+          sécurisée.
+        </p>
+        <div class="hero-actions">
+          <button class="btn btn-primary" data-open-modal="appointment">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+              <line x1="16" y1="2" x2="16" y2="6"></line>
+              <line x1="8" y1="2" x2="8" y2="6"></line>
+              <line x1="3" y1="10" x2="21" y2="10"></line>
+            </svg>
+            Prendre un Rendez-vous
+          </button>
+          <a href="contact.html" class="btn btn-secondary">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            Nous Situer & Accès
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat-item">
+            <span class="hero-stat-number">4<span>+</span></span>
+            <span class="hero-stat-label">Pôles d'Excellence Spécialisés</span>
+          </div>
+          <div class="hero-stat-item">
+            <span class="hero-stat-number">24<span>/7</span></span>
+            <span class="hero-stat-label">Urgences & Garde Obstétricale</span>
+          </div>
+          <div class="hero-stat-item">
+            <span class="hero-stat-number">99<span>%</span></span>
+            <span class="hero-stat-label">Satisfaction & Recommandation</span>
+          </div>
+          <div class="hero-stat-item">
+            <span class="hero-stat-number">100<span>%</span></span>
+            <span class="hero-stat-label">Chambres Particulières & Suites</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-image-wrapper">
+          <img src="assets/images/hero-clinic.jpg" alt="Façade moderne de la Clinique Sidi Yahia 2 à Alger" width="800"
+            height="500">
+        </div>
+        <!-- Floating highlight 1 -->
+        <div class="floating-card card-top-left">
+          <div class="floating-icon icon-teal">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+          </div>
+          <div class="floating-text">
+            <strong>Blocs de Haute Sécurité</strong>
+            <span>Stérilité et protection maximale</span>
+          </div>
+        </div>
+        <!-- Floating highlight 2 -->
+        <div class="floating-card card-bottom-right">
+          <div class="floating-icon icon-gold">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path
+                d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+              </path>
+            </svg>
+          </div>
+          <div class="floating-text">
+            <strong>Maternité Douce</strong>
+            <span>Accouchements physiologiques & suites VIP</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUICK ACCESS STRIP -->
+  <section class="quick-access-section">
+    <div class="container">
+      <div class="quick-access-grid">
+        <div class="quick-card highlight">
+          <div class="quick-icon-box">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+            </svg>
+          </div>
+          <div class="quick-content">
+            <h3>Urgences Médicales & Maternité 24/7</h3>
+            <p>Une équipe permanente d'obstétriciens, réanimateurs et chirurgiens sur place jour et nuit.</p>
+            <a href="#" data-safe-phone class="quick-action-link" aria-label="Appeler les urgences">Appeler le service d'urgence &rarr;</a>
+          </div>
+        </div>
+
+        <div class="quick-card">
+          <div class="quick-icon-box">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+              <polyline points="14 2 14 8 20 8"></polyline>
+              <line x1="16" y1="13" x2="8" y2="13"></line>
+              <line x1="16" y1="17" x2="8" y2="17"></line>
+              <polyline points="10 9 9 9 8 9"></polyline>
+            </svg>
+          </div>
+          <div class="quick-content">
+            <h3>Pré-admission & Accueil</h3>
+            <p>Anticipez vos démarches administratives et préparez sereinement votre admission.</p>
+            <a href="contact.html" class="quick-action-link">Guide de pré-admission &rarr;</a>
+          </div>
+        </div>
+
+        <div class="quick-card">
+          <div class="quick-icon-box">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path
+                d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
+              </path>
+            </svg>
+          </div>
+          <div class="quick-content">
+            <h3>Assistance Rapide WhatsApp</h3>
+            <p>Notre secrétariat médical vous oriente, répond à vos questions et planifie vos créneaux.</p>
+            <a href="#" data-safe-whatsapp data-msg="Bonjour, je souhaite des renseignements sur Clinique Sidi Yahia 2" target="_blank" rel="noopener" class="quick-action-link">Échanger sur WhatsApp &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- THE 4 PRIMARY SPECIALTIES -->
+  <section class="section" id="specialites">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Pôles Médicaux d'Excellence</span>
+        <h2 class="section-title">Quatre Domaines d'Expertise de Premier Plan</h2>
+        <p class="section-description">
+          Conçus pour allier maîtrise technologique, hyper-spécialisation des praticiens et environnement bienveillant
+          pour chaque étape de la vie.
+        </p>
+      </div>
+
+      <div class="specialties-grid">
+        <!-- 1. Maternité & Obstétrique -->
+        <article class="specialty-card">
+          <div class="specialty-image-wrap">
+            <img src="assets/images/maternity-suite.jpg" alt="Chambre de maternité prestige avec berceau nouveau-né"
+              loading="lazy">
+            <span class="specialty-tag">Pôle Mère & Enfant</span>
+          </div>
+          <div class="specialty-body">
+            <h3 class="specialty-title">Maternité & Soins Obstétricaux</h3>
+            <p class="specialty-desc">
+              Accueillez votre enfant dans un cocon de sérénité. Notre pôle obstétrical garantit un accompagnement
+              bienveillant et une sécurité médicale absolue pour la maman et son nouveau-né.
+            </p>
+            <ul class="specialty-features">
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Suivi de grossesse mensuel, échographies & monitorings
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Salles de travail physiologiques
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Bloc opératoire dédié aux césariennes d'urgence 24h/24
+              </li>
+            </ul>
+            <div class="specialty-footer">
+              <a href="maternite.html" class="btn-card-link">Découvrir le Pôle Maternité &rarr;</a>
+              <button class="btn btn-primary" data-open-modal="appointment"
+                data-specialty="Maternité & Obstétrique">Prendre RDV</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- 2. Gynécologie Médicale & Chirurgicale -->
+        <article class="specialty-card">
+          <div class="specialty-image-wrap">
+            <img src="assets/images/gynecology-suite.jpg"
+              alt="Cabinet de consultation gynécologique moderne avec échographe" loading="lazy">
+            <span class="specialty-tag">Santé Féminine Globale</span>
+          </div>
+          <div class="specialty-body">
+            <h3 class="specialty-title">Gynécologie & Santé de la Femme</h3>
+            <p class="specialty-desc">
+              De l'adolescence à la ménopause, nos gynécologues vous accompagnent avec écoute et discrétion pour le
+              dépistage, l'équilibre hormonal et la fertilité.
+            </p>
+            <ul class="specialty-features">
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Dépistages réguliers, frottis cervico-utérin & colposcopie
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Traitement des troubles du cycle, SOPK et ménopause
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Prise en charge de l'endométriose et des fibromes utérins
+              </li>
+            </ul>
+            <div class="specialty-footer">
+              <a href="gynecologie.html" class="btn-card-link">Découvrir le Pôle Gynécologie &rarr;</a>
+              <button class="btn btn-primary" data-open-modal="appointment"
+                data-specialty="Gynécologie Médicale">Prendre RDV</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- 3. Chirurgie Générale & Mini-Invasive -->
+        <article class="specialty-card">
+          <div class="specialty-image-wrap">
+            <img src="assets/images/surgery-operating.jpg"
+              alt="Bloc opératoire moderne de chirurgie mini-invasive cœlioscopique" loading="lazy">
+            <span class="specialty-tag">Haute Précision Chirurgicale</span>
+          </div>
+          <div class="specialty-body">
+            <h3 class="specialty-title">Chirurgie Générale & Mini-Invasive</h3>
+            <p class="specialty-desc">
+              Pionniers de la cœlioscopie 4K et de la chirurgie ambulatoire. Nous privilégions les incisions
+              millimétriques pour réduire la douleur et accélérer votre rétablissement.
+            </p>
+            <ul class="specialty-features">
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Cœlioscopie avancée (Vésicule, hernies inguinales, appendicite)
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Chirurgie viscérale, digestive et proctologique
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Unité de chirurgie ambulatoire (entrée et sortie le jour même)
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Protocole RAAC (Récupération Améliorée Après Chirurgie)
+              </li>
+            </ul>
+            <div class="specialty-footer">
+              <a href="chirurgie.html" class="btn-card-link">Découvrir le Pôle Chirurgie &rarr;</a>
+              <button class="btn btn-primary" data-open-modal="appointment"
+                data-specialty="Chirurgie Générale & Mini-invasive">Prendre RDV</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- 4. Urologie & Santé Pelvienne -->
+        <article class="specialty-card">
+          <div class="specialty-image-wrap">
+            <img src="assets/images/urology-center.jpg" alt="Centre d'endo-urologie et de laser de calculs rénaux"
+              loading="lazy">
+            <span class="specialty-tag">Innovation Endo-Urologique</span>
+          </div>
+          <div class="specialty-body">
+            <h3 class="specialty-title">Urologie & Santé Pelvienne</h3>
+            <p class="specialty-desc">
+              Expertise complète des affections de l'appareil urinaire masculin et féminin. Technologies laser pour
+              lithiase rénale et chirurgie prostatique mini-invasive.
+            </p>
+            <ul class="specialty-features">
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Traitement des calculs urinaires par urétéroscopie souple Laser
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Chirurgie et laser de l'adénome prostatique (HoLEP / ThuLEP)
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Endoscopie numérique HD
+              </li>
+            </ul>
+            <div class="specialty-footer">
+              <a href="urologie.html" class="btn-card-link">Découvrir le Pôle Urologie &rarr;</a>
+              <button class="btn btn-primary" data-open-modal="appointment" data-specialty="Urologie & Lithiase">Prendre
+                RDV</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- MEDICAL TEAM / PRATICIENS RÉFÉRENTS -->
+  <section class="section section-muted" id="equipe">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Excellence Clinique</span>
+        <h2 class="section-title">Nos Praticiens Référents</h2>
+        <p class="section-description">
+          Des médecins spécialistes et chirurgiens formés dans les plus grands centres hospitalo-universitaires
+          d'Algérie et d'Europe.
+        </p>
+      </div>
+
+      <!-- Filters -->
+      <div style="display: flex; justify-content: center; gap: 0.75rem; margin-bottom: 2.5rem; flex-wrap: wrap;">
+        <button class="btn btn-primary doctor-filter-btn" data-filter="all">Tous les Spécialistes</button>
+        <button class="btn btn-secondary doctor-filter-btn" data-filter="maternite">Maternité & Obstétrique</button>
+        <button class="btn btn-secondary doctor-filter-btn" data-filter="gyneco">Gynécologie</button>
+        <button class="btn btn-secondary doctor-filter-btn" data-filter="chirurgie">Chirurgie Viscérale</button>
+        <button class="btn btn-secondary doctor-filter-btn" data-filter="urologie">Urologie & Laser</button>
+      </div>
+
+      <div class="team-grid">
+        <!-- Doctor 1: Maternité -->
+        <div class="team-card" data-category="maternite">
+          <div class="team-thumb">
+            <img src="assets/images/dr-obstetrics.jpg" alt="Dr. Amina Benali, Obstétricienne" loading="lazy">
+          </div>
+          <div class="team-info">
+            <span class="team-role">Chef du Pôle Maternité</span>
+            <h4 class="team-name">Dr. Amina Benali</h4>
+            <p class="team-credentials">Gynécologue-Obstétricienne, spécialiste des grossesses à risque et accouchements
+              physiologiques.</p>
+            <div class="team-footer">
+              <span class="team-consult">Lun, Mer, Sam</span>
+              <a href="#" class="btn-book-doc" data-open-modal="appointment" data-doctor="Dr. Amina Benali"
+                data-specialty="Maternité & Obstétrique">Consulter &rarr;</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Doctor 2: Gynécologie -->
+        <div class="team-card" data-category="gyneco">
+          <div class="team-thumb">
+            <img src="assets/images/dr-gynecology.jpg" alt="Dr. Samia Khellil, Gynécologue médicale" loading="lazy">
+          </div>
+          <div class="team-info">
+            <span class="team-role">Gynécologie & Fertilité</span>
+            <h4 class="team-name">Dr. Samia Khellil</h4>
+            <p class="team-credentials">Spécialiste en colposcopie, bilan d'infertilité du couple et prise en charge de
+              l'endométriose.</p>
+            <div class="team-footer">
+              <span class="team-consult">Mar, Jeu, Ven</span>
+              <a href="#" class="btn-book-doc" data-open-modal="appointment" data-doctor="Dr. Samia Khellil"
+                data-specialty="Gynécologie Médicale">Consulter &rarr;</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Doctor 3: Chirurgie -->
+        <div class="team-card" data-category="chirurgie">
+          <div class="team-thumb">
+            <img src="assets/images/dr-surgeon.jpg" alt="Pr. Mourad Benyahia, Chirurgien Chef" loading="lazy">
+          </div>
+          <div class="team-info">
+            <span class="team-role">Chef de Chirurgie Viscérale</span>
+            <h4 class="team-name">Pr. Mourad Benyahia</h4>
+            <p class="team-credentials">Chirurgien viscéral et digestif, expert en cœlioscopie 4K et chirurgie de la
+              paroi abdominale.</p>
+            <div class="team-footer">
+              <span class="team-consult">Lun, Mar, Jeu</span>
+              <a href="#" class="btn-book-doc" data-open-modal="appointment" data-doctor="Pr. Mourad Benyahia"
+                data-specialty="Chirurgie Générale & Mini-invasive">Consulter &rarr;</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Doctor 4: Urologie -->
+        <div class="team-card" data-category="urologie">
+          <div class="team-thumb">
+            <img src="assets/images/dr-urology.jpg" alt="Dr. Yacine Meziani, Chirurgien Urologue" loading="lazy">
+          </div>
+          <div class="team-info">
+            <span class="team-role">Chirurgien Urologue</span>
+            <h4 class="team-name">Dr. Arthur Chen</h4>
+            <p class="team-credentials">Expert en lithotritie laser Holmium, urétéroscopie souple et chirurgie
+              mini-invasive prostatique.</p>
+            <div class="team-footer">
+              <span class="team-consult">Dim, Mer, Sam</span>
+              <a href="#" class="btn-book-doc" data-open-modal="appointment" data-doctor="Dr. Arthur Chen"
+                data-specialty="Urologie & Lithiase">Consulter &rarr;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PATIENT CARE JOURNEY -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Votre Parcours de Soins</span>
+        <h2 class="section-title">Une Expérience Patient Fluide & Rassurante</h2>
+        <p class="section-description">
+          Dès votre premier contact jusqu'à votre retour à domicile, notre équipe coordonne chaque détail avec humanité
+          et rigueur médicale.
+        </p>
+      </div>
+
+      <div class="journey-timeline">
+        <div class="journey-step">
+          <div class="step-number">01</div>
+          <h4>Consultation & Écoute</h4>
+          <p>Diagnostic précis, examens complémentaires sur place et explication claire du plan thérapeutique.</p>
+        </div>
+
+        <div class="journey-step">
+          <div class="step-number">02</div>
+          <h4>Admission Personnalisée</h4>
+          <p>Prise en charge administrative fluide, présentation de votre suite et préparation sereine avec l'équipe
+            soignante.</p>
+        </div>
+
+        <div class="journey-step">
+          <div class="step-number">03</div>
+          <h4>Intervention & Soins Experts</h4>
+          <p>Actes réalisés dans nos blocs opératoires sécurisés avec analgésie de pointe pour un confort
+            post-opératoire immédiat.</p>
+        </div>
+
+        <div class="journey-step">
+          <div class="step-number">04</div>
+          <h4>Suivi Post-Séjour 24/7</h4>
+          <p>Ordonnances claires, contact direct avec votre praticien référent et permanence téléphonique continue.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS SECTION -->
+  <section class="section section-muted">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Témoignages & Avis</span>
+        <h2 class="section-title">Ce Que Nos Patients et Mamans Disent de Nous</h2>
+        <p class="section-description">
+          La confiance de nos patients est le plus précieux témoignage de notre engagement quotidien.
+        </p>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-quote">
+            "J'ai accouché de mon premier garçon à la Clinique Sidi Yahia 2. L'écoute du Dr Benali et des sages-femmes a
+            transformé ce moment en un souvenir inoubliable. La suite prestige avec mon mari était d'un confort digne
+            d'un hôtel de luxe."
+          </p>
+          <div class="testi-author">
+            <div class="testi-avatar">NB</div>
+            <div class="testi-meta">
+              <strong>Nour Bouzid</strong>
+              <span>Maternité - Séjour Suite Prestige</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-quote">
+            "Opéré de la vésicule biliaire en cœlioscopie par le Pr Benyahia. Rentré à 8h du matin, opéré avec un réveil
+            sans douleur, et de retour chez moi en fin d'après-midi. Une maîtrise chirurgicale impressionnante."
+          </p>
+          <div class="testi-author">
+            <div class="testi-avatar">KL</div>
+            <div class="testi-meta">
+              <strong>Karim Larbi</strong>
+              <span>Chirurgie Digestive Ambulatoire</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-quote">
+            "Pris en charge en urgence pour une colique néphrétique aiguë un dimanche soir. Le calcul a été traité au
+            laser dès le lendemain. Équipe soignante réactive, bienveillante et matériel urologique ultra-moderne."
+          </p>
+          <div class="testi-author">
+            <div class="testi-avatar">ST</div>
+            <div class="testi-meta">
+              <strong>Sofiane Touati</strong>
+              <span>Urologie & Lithotritie Laser</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ SECTION -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Foire Aux Questions</span>
+        <h2 class="section-title">Tout Ce Que Vous Devez Savoir Avant Votre Venue</h2>
+        <p class="section-description">
+          Retrouvez les réponses aux questions les plus fréquentes sur nos modalités d'admission et notre accompagnement
+          médical.
+        </p>
+      </div>
+
+      <div class="faq-container">
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Comment préparer mon admission pour un accouchement à la maternité ?</span>
+            <span class="faq-icon">▼</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Nous vous recommandons d'effectuer votre pré-admission dès le 7ème mois de grossesse. Il vous suffira de
+              fournir votre dossier prénatal (échographies, bilan biologique du 8ème mois, carte de groupe sanguin) et
+              une pièce d'identité. Notre guide du trousseau maternité vous sera remis pour préparer la valise de maman
+              et de bébé.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Quelles sont les conditions pour un accompagnant en chambre ?</span>
+            <span class="faq-icon">▼</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Toutes nos Suites Prestige et Chambres Particulières disposent d'un canapé-lit ou lit dédié pour un
+              accompagnant adulte. Pour la maternité, le coparent est chaleureusement invité à séjourner jour et nuit
+              auprès de la maman et du nouveau-né. Des formules de restauration pour l'accompagnant sont également
+              proposées.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Comment se déroule une chirurgie ambulatoire (sortie le jour même) ?</span>
+            <span class="faq-icon">▼</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Vous êtes accueilli(e) à jeun le matin même par notre équipe anesthésique. Après l'acte chirurgical et une
+              surveillance attentive en salle de réveil puis en salon de repos, le médecin valide votre sortie quelques
+              heures plus tard. Vous devez être raccompagné(e) par un proche.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Prenez-vous en charge les urgences chirurgicales et obstétricales la nuit ?</span>
+            <span class="faq-icon">▼</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Absolument. La Clinique Sidi Yahia 2 dispose d'une permanence de soins 24h/24 et 7j/7 avec un
+              gynécologue-obstétricien de garde sur place, un anesthésiste-réanimateur présent en continu et une équipe
+              de bloc opératoire opérationnelle immédiatement.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Quelles assurances et mutuelles acceptez-vous ?</span>
+            <span class="faq-icon">▼</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Nous collaborons avec la plupart des grandes compagnies d'assurance et mutuelles nationales et
+              internationales opérant en Algérie. Nos chargées de clientèle administrative vous assistent pour l'édition
+              de vos devis et prises en charge préalables.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL BANNER -->
+  <section
+    style="background: linear-gradient(135deg, #071727 0%, #00a896 150%); color: #fff; padding: 5rem 0; text-align: center;">
+    <div class="container">
+      <h2 style="font-size: 2.4rem; color: #fff; margin-bottom: 1rem;">Besoin d'un Conseil Médical ou d'une Consultation
+        Spécialisée ?</h2>
+      <p style="font-size: 1.1rem; max-width: 650px; margin: 0 auto 2.5rem; color: rgba(255,255,255,0.85);">
+        Nos équipes vous accueillent tous les jours à Sidi Yahia. Réservez votre créneau en ligne ou contactez notre
+        accueil téléphonique.
+      </p>
+      <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+        <button class="btn btn-primary" data-open-modal="appointment"
+          style="background: #ffffff; color: var(--color-primary); box-shadow: 0 10px 25px rgba(0,0,0,0.25);">
+          Prendre Rendez-vous en Ligne
+        </button>
+        <a href="#" data-safe-phone data-phone-prefix="Appeler le" class="btn btn-secondary"
+          style="background: rgba(255,255,255,0.15); color: #fff; border-color: rgba(255,255,255,0.3);">
+          <span class="safe-phone-text">Appeler le +213 (0) ...</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Col 1: Identity -->
+        <div class="footer-col">
+          <div class="brand-logo" style="margin-bottom: 1.25rem;">
+            <div class="brand-symbol">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M12 2v20M2 12h20M7 7l10 10M17 7L7 17"></path>
+              </svg>
+            </div>
+            <div class="brand-text">
+              <span class="brand-title" style="color: #fff;">SIDI YAHIA <span
+                  style="color: var(--color-teal);">2</span></span>
+              <span class="brand-subtitle">Excellence Médicale</span>
+            </div>
+          </div>
+          <p style="font-size: 0.88rem; line-height: 1.6; margin-bottom: 1.5rem;">
+            Établissement médico-chirurgical haut de gamme dédié à la santé de la femme, à la naissance, à la chirurgie
+            mini-invasive et aux soins urologiques à Alger.
+          </p>
+          <div
+            style="display: inline-flex; align-items: center; gap: 0.5rem; background: rgba(0,168,150,0.15); padding: 0.4rem 0.85rem; border-radius: 6px; font-size: 0.8rem; color: #2dd4bf;">
+            <span>★ Agréé Ministère de la Santé</span>
+          </div>
+        </div>
+
+        <!-- Col 2: Spécialités -->
+        <div class="footer-col">
+          <h4>Pôles d'Excellence</h4>
+          <ul class="footer-links">
+            <li><a href="maternite.html">Maternité & Périnatalité</a></li>
+            <li><a href="gynecologie.html">Gynécologie Médicale & Dépistage</a></li>
+            <li><a href="chirurgie.html">Chirurgie Générale & Cœlioscopie</a></li>
+            <li><a href="urologie.html">Urologie & Laser Calculs Rénaux</a></li>
+            <li><a href="#equipe">Médecins & Chirurgiens</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Patients & Séjour -->
+        <div class="footer-col">
+          <h4>Patients & Accès</h4>
+          <ul class="footer-links">
+            <li><a href="maternite.html#valise">Valise de Maternité</a></li>
+            <li><a href="contact.html">Guide de Pré-admission</a></li>
+            <li><a href="contact.html#plan">Plan d'Accès & Parking Privé</a></li>
+            <li><a href="contact.html#mutuelles">Prise en Charge Mutuelles</a></li>
+            <li><a href="#" data-open-modal="appointment">Demande de Consultation</a></li>
+            <li><a href="#" data-safe-phone>Permanence d'Urgence</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Contact & Localisation -->
+        <div class="footer-col">
+          <h4>Coordonnées</h4>
+          <div class="footer-contact-item">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            <div>
+              <strong>Clinique Sidi Yahia 2</strong><br>
+              27 chemin Ahmed KARA - Bir Mourad Rais - Alger, Algérie<br>
+              <a href="https://maps.google.com/?q=P2MQ%2B2R+Bir+Mourad+Ra%C3%AFs,+Algeria" target="_blank" rel="noopener" style="color: var(--color-teal); font-size: 0.82rem; text-decoration: underline; display: inline-flex; align-items: center; gap: 0.25rem; margin-top: 0.25rem;">
+                📍 Plus Code : P2MQ+2R Bir Mourad Raïs
+              </a>
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+              </path>
+            </svg>
+            <div>
+              Ligne Directe & Urgences :<br>
+              <a href="#" data-safe-phone class="safe-contact-link"><strong class="safe-phone-text">+213 770 ... (cliquer pour appeler)</strong></a>
+              <button type="button" class="copy-mini-btn" data-copy-contact="phone" title="Copier le numéro">Copier</button>
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+            <div>
+              <a href="#" data-safe-email class="safe-contact-link"><span class="safe-email-text">contact [at] cliniquesidiyahia2 [dot] com</span></a>
+              <button type="button" class="copy-mini-btn" data-copy-contact="email" title="Copier l'adresse email">Copier</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 Clinique Sidi Yahia 2. Tous droits réservés. Établissement Médico-Chirurgical Privé.
+        </div>
+        <div>
+          Mentions Légales &bull; Politique de Confidentialité Médicale &bull; Charte Patient
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- APPOINTMENT MODAL -->
+  <div class="modal-backdrop" id="appointmentModal">
+    <div class="modal-box">
+      <div class="modal-header">
+        <div>
+          <h3>Prendre Rendez-vous en Ligne</h3>
+          <p style="font-size: 0.82rem; color: rgba(255,255,255,0.8); margin-top: 0.2rem;">Clinique Sidi Yahia 2 &bull;
+            Secrétariat Médical</p>
+        </div>
+        <button class="modal-close-btn" data-close-modal aria-label="Fermer la fenêtre">&times;</button>
+      </div>
+
+      <div class="modal-body">
+        <form id="bookingModalForm">
+          <input type="text" name="clinic_hp_check" class="bot-honeypot-trap" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="modalSpecialty">Pôle Médical :</label>
+              <select class="form-control" id="modalSpecialty" required>
+                <option value="Maternité & Obstétrique">Maternité & Obstétrique</option>
+                <option value="Gynécologie Médicale">Gynécologie Médicale</option>
+                <option value="Chirurgie Générale & Mini-invasive">Chirurgie Générale & Cœlioscopie</option>
+                <option value="Urologie & Lithiase">Urologie & Santé Pelvienne</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="modalDoctor">Médecin Préféré :</label>
+              <select class="form-control" id="modalDoctor">
+                <option value="">Premier Praticien Disponible</option>
+                <option value="Dr. Amina Benali">Dr. Amina Benali (Obstétrique)</option>
+                <option value="Dr. Samia Khellil">Dr. Samia Khellil (Gynécologie)</option>
+                <option value="Pr. Mourad Benyahia">Pr. Mourad Benyahia (Chirurgie)</option>
+                <option value="Dr. Arthur Chen">Dr. Arthur Chen (Urologie)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="modalName">Nom & Prénom :</label>
+              <input type="text" class="form-control" id="modalName" placeholder="Ex: Amina Kaci" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="modalPhone">Numéro de Téléphone :</label>
+              <input type="tel" class="form-control" id="modalPhone" placeholder="Ex: 0550 12 34 56" required>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="modalDate">Date Souhaitée :</label>
+              <input type="date" class="form-control" id="modalDate" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="modalSlot">Créneau Horraire :</label>
+              <select class="form-control" id="modalSlot">
+                <option value="Matin (09h00 - 12h00)">Matin (09h00 - 12h00)</option>
+                <option value="Après-midi (13h30 - 17h00)">Après-midi (13h30 - 17h00)</option>
+                <option value="Soir (17h00 - 19h30)">Soir (17h00 - 19h30)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="modalMotif">Motif de la consultation / Précisions :</label>
+            <textarea class="form-control" id="modalMotif" rows="2"
+              placeholder="Précisez votre demande (suivi, dépistage, deuxième avis chirurgical, réservation séjour...)"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 0.5rem;">
+            Confirmer la Demande de Rendez-vous
+          </button>
+        </form>
+
+        <div
+          style="margin-top: 1.5rem; text-align: center; border-top: 1px solid var(--color-border); padding-top: 1.25rem;">
+          <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.75rem;">Besoin d'une prise en charge
+            immédiate ?</p>
+          <a href="#" data-safe-whatsapp data-msg="Bonjour, je souhaite prendre un rendez-vous à Clinique Sidi Yahia 2"
+            target="_blank" rel="noopener" class="btn btn-secondary"
+            style="width: 100%; color: #059669; border-color: #a7f3d0; background: #ecfdf5;">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path
+                d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
+              </path>
+            </svg>
+            Réserver Directement via WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
