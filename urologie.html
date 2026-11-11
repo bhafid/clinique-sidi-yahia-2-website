@@ -43,11 +43,25 @@
       </a>
       <ul class="nav-menu">
         <li class="nav-item"><a href="index.html" class="nav-link">Accueil</a></li>
-        <li class="nav-item"><a href="maternite.html" class="nav-link">Maternité</a></li>
-        <li class="nav-item"><a href="gynecologie.html" class="nav-link">Gynécologie</a></li>
-        <li class="nav-item"><a href="chirurgie.html" class="nav-link">Chirurgie</a></li>
-        <li class="nav-item"><a href="urologie.html" class="nav-link active">Urologie</a></li>
-        <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+        <li class="nav-item has-dropdown">
+          <a href="index.html#specialites" class="nav-link active">
+            Pôles d'Excellence
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </a>
+          <ul class="nav-dropdown">
+            <li><a href="maternite.html"><span class="dropdown-icon">👶</span> Maternité & Obstétrique</a></li>
+            <li><a href="pediatrie.html"><span class="dropdown-icon">🍼</span> Pédiatrie & Néonatologie</a></li>
+            <li><a href="gynecologie.html"><span class="dropdown-icon">🌸</span> Gynécologie Médicale</a></li>
+            <li><a href="chirurgie.html"><span class="dropdown-icon">🔬</span> Chirurgie Viscérale & Générale</a></li>
+            <li><a href="gastro.html"><span class="dropdown-icon">🩺</span> Gastro-Entéro-Hépatologie & Endoscopie</a></li>
+            <li><a href="urologie.html"><span class="dropdown-icon">💧</span> Urologie & Pelvi-Périnéologie</a></li>
+            <li><a href="anesthesie.html"><span class="dropdown-icon">🛡️</span> Consultation Pré-Anesthésie</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a href="index.html#equipe" class="nav-link">Médecins</a></li>
+        <li class="nav-item"><a href="contact.html" class="nav-link">Contact & Accès</a></li>
       </ul>
       <div class="nav-actions">
         <button class="btn-header-rdv" data-open-modal="appointment" data-specialty="Urologie & Lithiase">
@@ -136,28 +150,6 @@
     </div>
   </section>
 
-  <!-- DOCTOR HIGHLIGHT -->
-  <section class="section section-muted">
-    <div class="container" style="max-width: 900px;">
-      <div style="background: #fff; border-radius: var(--radius-lg); border: 1px solid var(--color-border); padding: 3rem; display: grid; grid-template-columns: 240px 1fr; gap: 2.5rem; align-items: center; box-shadow: var(--shadow-md);">
-        <div style="border-radius: var(--radius-md); overflow: hidden; height: 260px;">
-          <img src="assets/images/dr-urology.jpg" alt="Dr Arthur Chen, Chirurgien Urologue" style="width:100%; height:100%; object-fit: cover;">
-        </div>
-        <div>
-          <span class="badge badge-teal" style="margin-bottom: 0.5rem;">Spécialiste Référent</span>
-          <h3 style="font-size: 1.6rem; color: var(--color-primary); margin-bottom: 0.5rem;">Dr. Arthur Chen</h3>
-          <p style="color: var(--color-teal); font-weight: 600; margin-bottom: 1rem;">Chirurgien Urologue & Expert en Endo-Urologie Laser</p>
-          <p style="font-size: 0.95rem; line-height: 1.6; color: var(--text-secondary); margin-bottom: 1.5rem;">
-            "Les pathologies urologiques altèrent profondément la qualité de vie des patients. Notre approche repose sur la précision des gestes endoscopiques guidés par caméra HD et laser, pour un confort de guérison optimal."
-          </p>
-          <button class="btn btn-primary" data-open-modal="appointment" data-specialty="Urologie & Lithiase" data-doctor="Dr. Arthur Chen">
-            Prendre Rendez-vous avec le Dr. Chen
-          </button>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- FOOTER -->
   <footer class="site-footer">
     <div class="container">
@@ -197,7 +189,6 @@
             <div class="form-group">
               <label class="form-label" for="modalDoctor">Praticien :</label>
               <select class="form-control" id="modalDoctor">
-                <option value="Dr. Arthur Chen">Dr. Arthur Chen</option>
                 <option value="">Premier créneau disponible</option>
               </select>
             </div>

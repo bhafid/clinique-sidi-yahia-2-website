@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact, Urgences & Accès | Clinique Sidi Yahia 2 Alger</title>
-  <meta name="description" content="Contactez la Clinique Sidi Yahia 2 à Bir Mourad Rais, Alger. Urgences obstétricales et chirurgicales 24h/24, plan d'accès, parking sécurisé et formulaire de contact.">
+  <meta name="description" content="Contactez la Clinique Sidi Yahia 2 à Bir Mourad Rais, Alger. Urgences obstétricales et chirurgicales 24h/24, plan d'accès et formulaire de contact.">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="icon" type="image/png" href="assets/images/logo.png">
 </head>
@@ -46,11 +46,25 @@
       </a>
       <ul class="nav-menu">
         <li class="nav-item"><a href="index.html" class="nav-link">Accueil</a></li>
-        <li class="nav-item"><a href="maternite.html" class="nav-link">Maternité</a></li>
-        <li class="nav-item"><a href="gynecologie.html" class="nav-link">Gynécologie</a></li>
-        <li class="nav-item"><a href="chirurgie.html" class="nav-link">Chirurgie</a></li>
-        <li class="nav-item"><a href="urologie.html" class="nav-link">Urologie</a></li>
-        <li class="nav-item"><a href="contact.html" class="nav-link active">Contact</a></li>
+        <li class="nav-item has-dropdown">
+          <a href="index.html#specialites" class="nav-link">
+            Pôles d'Excellence
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </a>
+          <ul class="nav-dropdown">
+            <li><a href="maternite.html"><span class="dropdown-icon">👶</span> Maternité & Obstétrique</a></li>
+            <li><a href="pediatrie.html"><span class="dropdown-icon">🍼</span> Pédiatrie & Néonatologie</a></li>
+            <li><a href="gynecologie.html"><span class="dropdown-icon">🌸</span> Gynécologie Médicale</a></li>
+            <li><a href="chirurgie.html"><span class="dropdown-icon">🔬</span> Chirurgie Viscérale & Générale</a></li>
+            <li><a href="gastro.html"><span class="dropdown-icon">🩺</span> Gastro-Entéro-Hépatologie & Endoscopie</a></li>
+            <li><a href="urologie.html"><span class="dropdown-icon">💧</span> Urologie & Pelvi-Périnéologie</a></li>
+            <li><a href="anesthesie.html"><span class="dropdown-icon">🛡️</span> Consultation Pré-Anesthésie</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a href="index.html#equipe" class="nav-link">Médecins</a></li>
+        <li class="nav-item"><a href="contact.html" class="nav-link active">Contact & Accès</a></li>
       </ul>
       <div class="nav-actions">
         <button class="btn-header-rdv" data-open-modal="appointment">
@@ -73,7 +87,7 @@
           Nous Contacter & Nous Rejoindre à Bir Mourad Raïs
         </h1>
         <p style="font-size: 1.1rem; color: rgba(255,255,255,0.85); line-height: 1.7; margin-bottom: 2rem;">
-          Idéalement située au 27 chemin Ahmed KARA à Bir Mourad Rais, la clinique est facilement accessible avec un parking privé et un sas d'accès direct pour les ambulances et urgences maternité.
+          Située à Bir Mourad Raïs à proximité de la Faculté de Droit (Saïd Hamdine), la clinique est facilement accessible avec un sas d'accès direct pour les ambulances et urgences maternité.
         </p>
         <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
           <a href="#" data-safe-phone class="btn btn-primary">
@@ -186,7 +200,6 @@
                   <option value="Pré-admission Maternité">Pré-admission Maternité</option>
                   <option value="Devis Chirurgie Ambulatoire">Devis Chirurgie Ambulatoire</option>
                   <option value="Consultation Spécialisée">Consultation Spécialisée</option>
-                  <option value="Prise en charge Assurances/Mutuelles">Prise en charge Assurances / Mutuelles</option>
                 </select>
               </div>
             </div>
@@ -212,7 +225,7 @@
         <span class="section-subtitle">Localisation Privilégiée</span>
         <h2 class="section-title">Comment Rejoindre la Clinique</h2>
         <p class="section-description">
-          Située au 27 chemin Ahmed KARA à Bir Mourad Raïs (aux abords de Sidi Yahia), à proximité immédiate des grands axes routiers d'Alger.
+          Située à Bir Mourad Raïs à proximité de la Faculté de Droit (Saïd Hamdine), à proximité immédiate des grands axes routiers d'Alger.
         </p>
       </div>
 
@@ -256,7 +269,7 @@
           <div>
             <h4 style="font-size: 1.05rem; color: var(--color-primary); margin-bottom: 0.5rem;">En Voiture</h4>
             <p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.5;">
-              Accès aisé par le chemin Ahmed KARA à Bir Mourad Raïs (à proximité de Sidi Yahia). Dépose-minute aménagée devant l'entrée des urgences.
+              Accès aisé à Bir Mourad Raïs à proximité de la Faculté de Droit (Saïd Hamdine). Dépose-minute aménagée devant l'entrée des urgences.
             </p>
           </div>
           <div>
@@ -305,19 +318,24 @@
               <label class="form-label" for="modalSpecialty">Pôle :</label>
               <select class="form-control" id="modalSpecialty">
                 <option value="Maternité & Obstétrique">Maternité & Obstétrique</option>
+                <option value="Pédiatrie & Néonatologie">Pédiatrie & Néonatologie</option>
                 <option value="Gynécologie Médicale">Gynécologie Médicale</option>
-                <option value="Chirurgie Générale & Mini-invasive">Chirurgie Générale & Cœlioscopie</option>
+                <option value="Chirurgie Générale & Mini-invasive">Chirurgie Viscérale & Générale</option>
+                <option value="Gastro-Entéro-Hépatologie & Endoscopie">Gastro-Entéro-Hépatologie & Endoscopie</option>
                 <option value="Urologie & Lithiase">Urologie & Lithiase</option>
+                <option value="Consultation Pré-Anesthésie">Consultation Pré-Anesthésie</option>
               </select>
             </div>
             <div class="form-group">
               <label class="form-label" for="modalDoctor">Médecin :</label>
               <select class="form-control" id="modalDoctor">
                 <option value="">Premier médecin disponible</option>
-                <option value="Dr. Amina Benali">Dr. Amina Benali</option>
-                <option value="Dr. Samia Khellil">Dr. Samia Khellil</option>
-                <option value="Dr. Bencharef Abdelkader">Dr. Bencharef Abdelkader</option>
-                <option value="Dr. Arthur Chen">Dr. Arthur Chen</option>
+                <option value="Dr. Benimam Nabila">Dr. Benimam Nabila (Gynéco-Obstétricienne)</option>
+                <option value="Dr. El Hassane Ahmed">Dr. El Hassane Ahmed (Pédiatrie & Néonatologie)</option>
+                <option value="Dr. Toualbi Souad">Dr. Toualbi Souad (Pédiatrie & Néonatologie)</option>
+                <option value="Dr. Bencharef Abdelkader">Dr. Bencharef Abdelkader (Chirurgie Viscérale & Générale)</option>
+                <option value="Dr. Marchoud Ines">Dr. Marchoud Ines (Anesthésie-Réanimation)</option>
+                <option value="Dr. Hasni Abdelaziz">Dr. Hasni Abdelaziz (Anesthésie-Réanimation)</option>
               </select>
             </div>
           </div>
