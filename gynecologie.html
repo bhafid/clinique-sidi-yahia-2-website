@@ -152,7 +152,7 @@
 
   <!-- DOCTOR HIGHLIGHT -->
   <section class="section section-muted">
-    <div class="container" style="max-width: 900px;">
+    <div class="container" style="max-width: 900px; display: flex; flex-direction: column; gap: 2rem;">
       <div
         style="background: #fff; border-radius: var(--radius-lg); border: 1px solid var(--color-border); padding: 3rem; display: grid; grid-template-columns: 240px 1fr; gap: 2.5rem; align-items: center; box-shadow: var(--shadow-md);">
         <div style="border-radius: var(--radius-md); overflow: hidden; height: 260px;">
@@ -169,6 +169,26 @@
           <button class="btn btn-primary" data-open-modal="appointment"
             data-specialty="Gynécologie Médicale" data-doctor="Dr. Benimam Nabila">
             Prendre Rendez-vous avec le Dr. Benimam
+          </button>
+        </div>
+      </div>
+
+      <div
+        style="background: #fff; border-radius: var(--radius-lg); border: 1px solid var(--color-border); padding: 3rem; display: grid; grid-template-columns: 240px 1fr; gap: 2.5rem; align-items: center; box-shadow: var(--shadow-md);">
+        <div style="border-radius: var(--radius-md); overflow: hidden; height: 260px;">
+          <img src="assets/images/dr-louafi.jpg" alt="Dr. Louafi Hana, Gynécologue"
+            style="width:100%; height:100%; object-fit: cover; object-position: center 15%;">
+        </div>
+        <div>
+          <span class="badge badge-teal" style="margin-bottom: 0.5rem;">Praticienne Référente</span>
+          <h3 style="font-size: 1.6rem; color: var(--color-primary); margin-bottom: 0.5rem;">Dr. Louafi Hana</h3>
+          <p style="color: var(--color-teal); font-weight: 600; margin-bottom: 1rem;">Gynécologue</p>
+          <p style="font-size: 0.95rem; line-height: 1.6; color: var(--text-secondary); margin-bottom: 1.5rem;">
+            Spécialiste en gynécologie, suivi gynécologique de la femme à tous les âges, dépistage, contraception et prise en charge des troubles hormonaux.
+          </p>
+          <button class="btn btn-primary" data-open-modal="appointment"
+            data-specialty="Gynécologie Médicale" data-doctor="Dr. Louafi Hana">
+            Prendre Rendez-vous avec le Dr. Louafi
           </button>
         </div>
       </div>
@@ -215,6 +235,7 @@
               <label class="form-label" for="modalDoctor">Praticien :</label>
               <select class="form-control" id="modalDoctor">
                 <option value="Dr. Benimam Nabila">Dr. Benimam Nabila (Gynéco-Obstétricienne)</option>
+                <option value="Dr. Louafi Hana">Dr. Louafi Hana (Gynécologue)</option>
                 <option value="">Premier créneau disponible</option>
               </select>
             </div>
