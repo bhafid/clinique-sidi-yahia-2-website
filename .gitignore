@@ -1,0 +1,13 @@
+# Base de données SQLite locale (ne jamais versionner en production)
+database/*.sqlite
+database/*.sqlite-wal
+database/*.sqlite-shm
+
+# Photos uploadées depuis l'administration
+uploads/praticiens/*
+!uploads/praticiens/.gitkeep
+
+# Environnement & logs
+.env
+*.log
+node_modules/

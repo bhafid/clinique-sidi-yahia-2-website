@@ -210,69 +210,7 @@
   </section>
 
   <!-- DOCTOR HIGHLIGHT -->
-  <section class="section">
-    <div class="container" style="max-width: 900px; display: flex; flex-direction: column; gap: 2rem;">
-      <div
-        style="background: #fff; border-radius: var(--radius-lg); border: 1px solid var(--color-border); padding: 3rem; display: grid; grid-template-columns: 240px 1fr; gap: 2.5rem; align-items: center; box-shadow: var(--shadow-md);">
-        <div style="border-radius: var(--radius-md); overflow: hidden; height: 260px;">
-          <img src="assets/images/dr-marchoud.jpg" alt="Dr. Marchoud Ines, Anesthésiste-Réanimateur"
-            style="width:100%; height:100%; object-fit: cover; object-position: center 18%;">
-        </div>
-        <div>
-          <span class="badge badge-teal" style="margin-bottom: 0.5rem;">Praticienne Référente</span>
-          <h3 style="font-size: 1.6rem; color: var(--color-primary); margin-bottom: 0.5rem;">Dr. Marchoud Ines</h3>
-          <p style="color: var(--color-teal); font-weight: 600; margin-bottom: 1rem;">Anesthésiste - Réanimateur</p>
-          <p style="font-size: 0.95rem; line-height: 1.6; color: var(--text-secondary); margin-bottom: 1.5rem;">
-            Spécialiste en anesthésie-réanimation, consultation pré-anesthésique personnalisée, analgésie péridurale obstétricale et prise en charge optimale de la sécurité et du confort péri-opératoire.
-          </p>
-          <button class="btn btn-primary" data-open-modal="appointment"
-            data-specialty="Consultation Pré-Anesthésie" data-doctor="Dr. Marchoud Ines">
-            Prendre Rendez-vous avec le Dr. Marchoud
-          </button>
-        </div>
-      </div>
-
-      <div
-        style="background: #fff; border-radius: var(--radius-lg); border: 1px solid var(--color-border); padding: 3rem; display: grid; grid-template-columns: 240px 1fr; gap: 2.5rem; align-items: center; box-shadow: var(--shadow-md);">
-        <div style="border-radius: var(--radius-md); overflow: hidden; height: 260px;">
-          <img src="assets/images/dr-hasni.jpg" alt="Dr. Hasni Abdelaziz, Anesthésiste-Réanimateur"
-            style="width:100%; height:100%; object-fit: cover; object-position: center 20%;">
-        </div>
-        <div>
-          <span class="badge badge-teal" style="margin-bottom: 0.5rem;">Praticien Référent</span>
-          <h3 style="font-size: 1.6rem; color: var(--color-primary); margin-bottom: 0.5rem;">Dr. Hasni Abdelaziz</h3>
-          <p style="color: var(--color-teal); font-weight: 600; margin-bottom: 1rem;">Anesthésiste - Réanimateur</p>
-          <p style="font-size: 0.95rem; line-height: 1.6; color: var(--text-secondary); margin-bottom: 1.5rem;">
-            Spécialiste en anesthésie-réanimation, évaluation pré-opératoire approfondie, sécurité anesthésique au bloc opératoire et suivi post-interventionnel.
-          </p>
-          <button class="btn btn-primary" data-open-modal="appointment"
-            data-specialty="Consultation Pré-Anesthésie" data-doctor="Dr. Hasni Abdelaziz">
-            Prendre Rendez-vous avec le Dr. Hasni
-          </button>
-        </div>
-      </div>
-
-      <div
-        style="background: #fff; border-radius: var(--radius-lg); border: 1px solid var(--color-border); padding: 3rem; display: grid; grid-template-columns: 240px 1fr; gap: 2.5rem; align-items: center; box-shadow: var(--shadow-md);">
-        <div style="border-radius: var(--radius-md); overflow: hidden; height: 260px;">
-          <img src="assets/images/dr-baitich.jpg" alt="Dr. Baitich Amine, Anesthésiste-Réanimateur"
-            style="width:100%; height:100%; object-fit: cover; object-position: center 25%;">
-        </div>
-        <div>
-          <span class="badge badge-teal" style="margin-bottom: 0.5rem;">Praticien Référent</span>
-          <h3 style="font-size: 1.6rem; color: var(--color-primary); margin-bottom: 0.5rem;">Dr. Baitich Amine</h3>
-          <p style="color: var(--color-teal); font-weight: 600; margin-bottom: 1rem;">Anesthésiste - Réanimateur</p>
-          <p style="font-size: 0.95rem; line-height: 1.6; color: var(--text-secondary); margin-bottom: 1.5rem;">
-            Spécialiste en anesthésie-réanimation, anesthésie générale et locorégionale, surveillance post-opératoire et prise en charge de la douleur.
-          </p>
-          <button class="btn btn-primary" data-open-modal="appointment"
-            data-specialty="Consultation Pré-Anesthésie" data-doctor="Dr. Baitich Amine">
-            Prendre Rendez-vous avec le Dr. Baitich
-          </button>
-        </div>
-      </div>
-    </div>
-  </section>
+  <!--@praticiens:highlights-->
 
   <!-- FOOTER -->
   <footer class="site-footer">
@@ -313,9 +251,7 @@
             <div class="form-group">
               <label class="form-label" for="modalDoctor">Médecin / Intervention :</label>
               <select class="form-control" id="modalDoctor">
-                <option value="Dr. Marchoud Ines">Dr. Marchoud Ines (Anesthésiste - Réanimateur)</option>
-                <option value="Dr. Hasni Abdelaziz">Dr. Hasni Abdelaziz (Anesthésiste - Réanimateur)</option>
-                <option value="Dr. Baitich Amine">Dr. Baitich Amine (Anesthésiste - Réanimateur)</option>
+<!--@praticiens:options-->
                 <option value="Pré-Anesthésie Chirurgie Viscérale / Générale">Chirurgie Viscérale & Générale</option>
                 <option value="Pré-Anesthésie Maternité (Accouchement / Césarienne)">Maternité (Péridurale / Césarienne)</option>
                 <option value="Pré-Anesthésie Endoscopie Digestive">Endoscopie Digestive (Coloscopie / Fibroscopie)</option>
